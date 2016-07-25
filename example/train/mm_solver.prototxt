@@ -1,0 +1,20 @@
+net: "./train/mmnetwork.prototxt"
+
+test_iter: 25
+test_interval: 1000
+
+base_lr: 0.001
+lr_policy: "step"
+iter_size: 2
+gamma: 0.8
+stepsize: 30000
+display: 1
+max_iter: 300000
+momentum: 0.90
+weight_decay: 0.00005
+snapshot: 1000
+snapshot_prefix: "./train/mm"
+solver_mode: GPU
+random_seed: 1701
+average_loss: 100
+clip_gradients: 10
