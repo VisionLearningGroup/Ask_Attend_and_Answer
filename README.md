@@ -13,13 +13,13 @@ Instructions for training the "SMem-VQA Two-Hop" model:
 
 3. Run ./train/train_mm.sh to train the model.
 
-4. Model trained on VQA dataset: [SMem-VQA](https://drive.google.com/drive/folders/0BxLtQPBFL-uLWmdNZEVkU2tGak0)
+4. Model trained on VQA dataset: [SMem-VQA](https://drive.google.com/file/d/0BxLtQPBFL-uLUFExNEpHNUIyUzQ/view)
 
 # Citation
 
 @article{xu2015ask,
   title={Ask, Attend and Answer: Exploring Question-Guided Spatial Attention for Visual Question Answering},
   author={Xu, Huijuan and Saenko, Kate},
-  journal={ECCV2016},
-  year={2016}
+  journal={arXiv preprint arXiv:1511.05234},
+  year={2015}
 }
