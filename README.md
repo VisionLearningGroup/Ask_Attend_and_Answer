@@ -11,7 +11,8 @@ Instructions for training the "SMem-VQA Two-Hop" model:
 
 2. Run ./example/data/get_image.sh to download MSCOCO image data.
 
-3. Run ./train/train_mm.sh to train the model.
+3. cd example/
+   run ./train/train_mm.sh to train the model.
 
 4. Model trained on VQA dataset: [SMem-VQA](https://drive.google.com/file/d/0BxLtQPBFL-uLUFExNEpHNUIyUzQ/view)
 
