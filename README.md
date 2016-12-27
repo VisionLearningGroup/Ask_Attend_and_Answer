@@ -9,7 +9,9 @@ Instructions for training and testing the "SMem-VQA Two-Hop" model:
 
 1. Download the provided caffe folder and install caffe following the instructions in http://caffe.berkeleyvision.org/installation.html .
 
-2. Run ./example/data/get_image.sh to download MSCOCO image data.
+2. cd example/data/
+
+   run ./get_image.sh to download MSCOCO images, and VQA annotations and questions.
 
 3. cd example/
 
