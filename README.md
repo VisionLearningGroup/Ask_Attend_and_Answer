@@ -5,16 +5,19 @@ Ask, Attend and Answer: Exploring Question-Guided Spatial Attention for Visual Q
 
 # Code
 
-Instructions for training the "SMem-VQA Two-Hop" model:
+Instructions for training and testing the "SMem-VQA Two-Hop" model:
 
 1. Download the provided caffe folder and install caffe following the instructions in http://caffe.berkeleyvision.org/installation.html .
 
 2. Run ./example/data/get_image.sh to download MSCOCO image data.
 
-3. cd example/
+3. cd example/ and
    run ./train/train_mm.sh to train the model.
 
 4. Model trained on VQA dataset: [SMem-VQA](https://drive.google.com/file/d/0BxLtQPBFL-uLUFExNEpHNUIyUzQ/view)
+
+5. predict the answers for the images and questions in VQA test-dev dataset
+   python ./prediction/predict_json.py
 
 # Citation
 
