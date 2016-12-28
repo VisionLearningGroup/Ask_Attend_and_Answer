@@ -9,23 +9,32 @@ Instructions for training and testing the "SMem-VQA Two-Hop" model:
 
 1. Download the provided caffe folder and install caffe following the instructions in http://caffe.berkeleyvision.org/installation.html .
 
-2. cd example/data/
+2. Download MSCOCO images, and VQA annotations and questions
+  
+   cd example/data/
 
-   run ./get_image.sh to download MSCOCO images, and VQA annotations and questions.
+   ./get_image.sh
    
-3. cd example/data/generate_h5_data
+3. get the hdf5 data for training and testing
+ 
+   cd example/
 
-   python generate_h5_data.py, to get the hdf5 data for training and testing
+   python ./data/generate_h5_data/generate_h5_data.py
 
-4. cd example/
+4. train the model
+ 
+   cd example/
 
-   run ./train/train_mm.sh to train the model.
+   run ./train/train_mm.sh 
 
 5. Model trained on VQA dataset: [SMem-VQA](https://drive.google.com/file/d/0BxLtQPBFL-uLUFExNEpHNUIyUzQ/view)
 
 6. predict the answers for the images and questions in VQA test-dev dataset 
-
+ 
+   cd example/
+   
    python ./prediction/predict_json.py
+
 
 # Citation
 
