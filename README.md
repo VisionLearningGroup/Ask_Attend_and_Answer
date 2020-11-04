@@ -38,9 +38,14 @@ Instructions for training and testing the "SMem-VQA Two-Hop" model:
 
 # Citation
 
-    @article{xu2015ask,
-        Author = {Xu, Huijuan and Saenko, Kate},
-        Title = {Ask, Attend and Answer: Exploring Question-Guided Spatial Attention for Visual Question Answering},
-        Journal = {arXiv preprint arXiv:1511.05234},
-        Year = {2015}
-    }
+@inproceedings{xu2016ask,
+  title={Ask, attend and answer: Exploring question-guided spatial attention for visual question answering},
+  author={Xu, Huijuan and Saenko, Kate},
+  booktitle={European Conference on Computer Vision},
+  pages={451--466},
+  year={2016},
+  organization={Springer}
+}
+
+
+
